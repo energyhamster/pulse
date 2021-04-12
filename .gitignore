@@ -1,6 +1,9 @@
 # dependencies
 /node_modules
 
+#vs code
+/.vs
+
 # testing
 /coverage
 
