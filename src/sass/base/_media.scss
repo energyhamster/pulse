@@ -84,6 +84,7 @@
 		}
 	}
 	.promo {
+		min-height: 590px;
 		&__header {
 			font-size: 17px;
 			line-height: 20px;
@@ -93,6 +94,16 @@
 		}
 		&__link {
 			font-size: 14px;
+		}
+		&__icons {
+			width: max-content;
+		}
+		&__icon {
+			width: 93px;
+			font-size: 12px;
+			img {
+				height: 30%;
+			}
 		}
 	}
 }
