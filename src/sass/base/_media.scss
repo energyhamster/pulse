@@ -17,6 +17,13 @@
 			padding: 0 50px;
 		}
 	}
+	.catalog {
+		padding: 0 25px;
+	}
+	.review__wrapper {
+		position: relative;
+		padding: 100px 25px 0 25px;
+	}
 }
 
 // Medium devices (tablets, 767px and low)
@@ -58,6 +65,15 @@
 		&__icon {
 			margin-top: 20px;
 		}
+	}
+	.carousel {
+		padding: 81px 55px 82px 55px;
+		img {
+			width: 650px;
+		}
+	}
+	.catalog__content_active {
+		justify-content: center;
 	}
 }
 
@@ -132,6 +148,34 @@
 			&_left {
 				font-size: 25px;
 			}
+		}
+	}
+	.carousel {
+		padding: 81px 55px 82px 55px;
+		img {
+			width: 226px;
+		}
+	}
+	.catalog {
+		&__tabs {
+			flex-wrap: wrap;
+		}
+		&__tab {
+			margin-bottom: 20px;
+		}
+	}
+	.review {
+		padding: 20px 20px 82px 20px;
+		&__wrapper {
+			padding: 81px 5px 82px 5px;
+		}
+		&__item {
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+		&__round {
+			margin-bottom: 20px;
+			margin-left: 60px;
 		}
 	}
 }

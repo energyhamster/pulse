@@ -2,7 +2,15 @@ $(document).ready(function(){
     $('.carousel__inner').slick({
         speed: 1200,
         prevArrow: '<button type="button" class="slick-prev"><img src="img/left.png"></button>',
-        nextArrow: '<button type="button" class="slick-next"><img src="img/right.png"></button>'
+        nextArrow: '<button type="button" class="slick-next"><img src="img/right.png"></button>',
+        responsive: [
+            {
+                breakpoint: 993,
+                settings: {
+                  arrows: false,
+                }
+            }
+          ]
     });
 
     $('ul.catalog__tabs').on('click', 'li:not(.catalog__tab_active)', function() {

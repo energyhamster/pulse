@@ -1,0 +1,31 @@
+.review {
+	padding: 0 0 50px 0;
+	&__item {
+		margin-top: 60px;
+		display: flex;
+		align-items: start;
+	}
+	&__round {
+		margin-right: 60px;
+	}
+	&__title {
+		font-weight: 700;
+		font-size: 18px;
+		color: #0d0d0d;
+	}
+	&__subtitle {
+		font-weight: 500;
+		font-size: 14px;
+		color: #646464;
+	}
+	&__text {
+		margin-top: 10px;
+		font-weight: 300;
+		font-size: 16px;
+		line-height: 25px;
+		color: #0d0d0d;
+		span {
+			font-weight: 700;
+		}
+	}
+}
