@@ -24,6 +24,11 @@
 		position: relative;
 		padding: 100px 25px 0 25px;
 	}
+	.footer__info {
+		width: 340px;
+		line-height: 20px;
+		padding: 40px 38px 30px 38px;
+	}
 }
 
 // Medium devices (tablets, 767px and low)
@@ -74,6 +79,18 @@
 	}
 	.catalog__content_active {
 		justify-content: center;
+	}
+	.footer {
+		&__info {
+			top: auto;
+			bottom: 0%;
+			height: 200px;
+			line-height: 20px;
+			padding: 20px 18px 10px 18px;
+		}
+		&__address {
+			margin-bottom: 10px;
+		}
 	}
 }
 
@@ -165,7 +182,7 @@
 		}
 	}
 	.review {
-		padding: 20px 20px 82px 20px;
+		padding: 20px 20px 32px 20px;
 		&__wrapper {
 			padding: 81px 5px 82px 5px;
 		}
@@ -176,6 +193,14 @@
 		&__round {
 			margin-bottom: 20px;
 			margin-left: 60px;
+		}
+	}
+	.footer {
+		&__info {
+			width: 320px;
+		}
+		&__phone {
+			margin-bottom: 20px;
 		}
 	}
 }
