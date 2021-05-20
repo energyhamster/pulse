@@ -84,7 +84,7 @@ $(document).ready(function(){
     $('form').submit(function(e) {
         e.preventDefault();
         $.ajax({
-            type: "PJST",
+            type: "POST",
             url: "mailer/smart.php",
             data: $(this).serialize()
         }).done(function() {
