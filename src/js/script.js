@@ -106,6 +106,8 @@ $(document).ready(function(){
         }
     });
 
+    new WOW().init();
+
     // Smooth scroll
 
     //    $("a[href^='#']").click(function() {

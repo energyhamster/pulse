@@ -32,4 +32,12 @@
 			color: $red-color;
 		}
 	}
+	&__icon {
+		&_animated {
+			animation: beat 1.5s ease infinite paused;
+			&:hover {
+				animation-play-state: running;
+			}
+		}
+	}
 }
